@@ -277,7 +277,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   .nav-item .nav-link {
     display: block;
-    color: var(--white-color);
+    color: var(--white-color);/*same box overal text colour*/
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
@@ -286,11 +286,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   .nav-item .nav-link.active,
   .nav-item .nav-link:hover {
-    color: var(--primary-color);
+    
+    color: var(--primary-color);/*home about animation colour*/
   }
 
   .navbar .social-icon li a {
-    color: var(--white-color);
+    
+    color: var(--primary-color);/*linkedin github  animation colour*/
   }
 
   .navbar-toggler {
